@@ -61,7 +61,7 @@ Prettier
 - ルールに則ってソースコードを整形してくれる
 - プロジェクトごとにルールを設定する
 
-npm install --save-dev eslint eslint-config-prettier prettier @typescript-eslint/parser @typescript-eslint/eslint-plugin husky lint-staged
+npm install --save-dev eslint eslint-config-prettier prettier @typescript-eslint/parser @typescript-eslint/eslint-plugin
 
 eslint-config-prettier eslintとprettierを併用する際に使う
 
@@ -71,19 +71,9 @@ eslint-config-prettier eslintとprettierを併用する際に使う
     Error: "prettier/@typescript-eslint" has been merged into "prettier" in eslint-config-prettier 8.0.0. See: https://github.com/prettier/eslint-config-prettier/blob/main/CHANGELOG.md#version-800-2021-02-21
     Referenced from: /home/node/app/typescript-check/.eslintrc.js
 
-
-
-
 @typescript-eslint/eslint-plugin ESLint(本来はJSのチェックだが)でTypeScriptのチェックを行う
 
 @typescript-eslint/parser ESLintでTypeScriptを解析できるようにする
-
-husky Gitコマンドをフックに別のコマンドを呼び出せる
-
-lint-staged commitしたファイル(stagingにあるファイル)にlintを実行することができる
-
-
-
 
 
 
