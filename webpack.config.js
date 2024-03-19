@@ -16,6 +16,10 @@ module.exports = {
   resolve: {
     extensions: [".ts", ".js"], // Reactの.tsxや.jsxの拡張子も扱いたい場合は配列内に追加する
   },
+  // hot reloadが遅いので node_modulesを省く
+  watchOptions: {
+    ignored: /node_modules/,
+  },
   devServer: {
     static: {
       directory: path.join(__dirname, "dist"), // webpack-dev-serverの公開フォルダ
