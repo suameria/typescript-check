@@ -76,5 +76,18 @@ eslint-config-prettier eslintとprettierを併用する際に使う
 @typescript-eslint/parser ESLintでTypeScriptを解析できるようにする
 
 
+7. 存在しないことを表現する型
+
+null: 値が欠如していることを表す
+undefined: 初期化されておらず値が割り当てられていないことを表す
+
+
+8. TypeScriptはanyを回避するゲーム
+
+any: どんな型でも許容する=全く安全ではない
+unknown: どんな型になるのか不明
+unknownは代入した値によって型が変化する
+anyは絶対に使わないようにする
+
 
 ```
