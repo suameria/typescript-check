@@ -53,7 +53,7 @@ npm install -g typescript サーバーにtscコマンドが使えるようにイ
 6. install ESLint & Prettier
 
 ESLint
-- JavaScriptのための性的検証ツール
+- JavaScriptのための静的検証ツール
 - ファイル内のバグチェックやコーディングスタイルの一貫性を保つ
 
 Prettier
