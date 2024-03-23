@@ -3,9 +3,17 @@
 - TypeScript
 
 ```text
+check lists: cf.
 
+[1] https://www.youtube.com/playlist?list=PLX8Rsrpnn3IW0REXnTWQp79mxCvHkIrad
+
+[2] https://www.youtube.com/watch?v=ECc1EXnx7VQ
+
+```
+
+```text
 cf.
-https://www.youtube.com/playlist?list=PLX8Rsrpnn3IW0REXnTWQp79mxCvHkIrad
+[1] https://www.youtube.com/playlist?list=PLX8Rsrpnn3IW0REXnTWQp79mxCvHkIrad
 
 - tsconfig
 - Webpack
@@ -128,6 +136,12 @@ never: 決して戻ることのない関数の戻り値
 ->データ型
 ->戻り値の型
 
+
+```
+
+```text
+cf.
+[2] https://www.youtube.com/watch?v=ECc1EXnx7VQ
 
 
 ```
