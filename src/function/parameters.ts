@@ -19,3 +19,10 @@ export const isUserSignedIn2 = (userId: string, userName: string = "NO NAME"): b
     return false;
   }
 };
+
+// レストパラメーターを持つ関数
+export const sumProductsPrice = (...productsPrice: number[]): number => {
+  return productsPrice.reduce((previousValue: number, productsPrice: number) => {
+    return previousValue + productsPrice;
+  }, 0);
+};
